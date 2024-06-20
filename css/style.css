@@ -1,0 +1,120 @@
+body {
+    background-color:bisque
+}
+ 
+header {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:brown
+}
+ 
+.form-area {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 30rem;
+}
+ 
+.left-area {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+ 
+.type-area {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.error {
+    font-size: 20px;
+    color: red;
+}
+ 
+.friend-name {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: rgb(230, 173, 104);
+    background-color: rgba(255, 255, 255, 0.6);
+}
+ 
+.friends-title {
+    display: flex;
+    justify-content: center;
+}
+ 
+.button-area {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+ 
+.add-button {
+    font-size: 1.4rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(5, 192, 5);
+    border-radius: 20px;
+    border-color: rgb(5, 248, 45);
+    border: none;
+}
+ 
+.sort-button {
+    font-size: 1.4rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(255, 187, 0);
+    border-radius: 20px;
+    border: none;
+}
+ 
+.restart-button {
+    font-size: 1.4rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    background-color: rgb(219, 32, 32);
+    border-radius: 20px;
+    border: none;
+}
+ 
+button {
+    font-size: 20px;
+}
+ 
+.right-area {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+ 
+.results-title {
+    color: rgb(0, 0, 0);
+}
+ 
+.result-area {
+    font-size: 25px;
+}
